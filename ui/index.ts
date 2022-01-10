@@ -1,1 +1,3 @@
-export const UI = ()=>{}
+export const UI = () => {
+    console.log("ui");
+};

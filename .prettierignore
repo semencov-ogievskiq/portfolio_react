@@ -1,0 +1,8 @@
+node_modules
+/build
+/.next
+/dist
+*.md
+npm-debug.log*
+/storybook-static
+
