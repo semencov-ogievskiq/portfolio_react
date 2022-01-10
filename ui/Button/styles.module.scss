@@ -1,0 +1,111 @@
+@import "../styles/colors.scss";
+@import "../styles/variants.scss";
+
+.button {
+    margin: 0;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 5px;
+    color: $black;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+    &-primary {
+        background-color: $primary-main;
+        color: $primary-reverse;
+        border-color: $primary-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+
+    &-secondary {
+        background-color: $secondary-main;
+        color: $secondary-reverse;
+        border-color: $secondary-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+
+    &-success {
+        background-color: $success-main;
+        color: $success-reverse;
+        border-color: $success-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+
+    &-warning {
+        background-color: $warning-main;
+        color: $warning-reverse;
+        border-color: $warning-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+
+    &-danger {
+        background-color: $danger-main;
+        color: $danger-reverse;
+        border-color: $danger-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+
+    &-info {
+        background-color: $info-main;
+        color: $info-reverse;
+        border-color: $info-main;
+
+        &:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+
+        &:active {
+            background-color: $primary-dark;
+            border-color: $primary-dark;
+        }
+    }
+}
