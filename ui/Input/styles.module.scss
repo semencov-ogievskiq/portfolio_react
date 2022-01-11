@@ -1,0 +1,74 @@
+@import "../styles/colors.scss";
+@import "../styles/variants.scss";
+
+.input {
+    position: relative;
+    border: 1px solid $secondary_main;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0;
+    height: 22px;
+
+    &-label_show {
+        margin-top: 15px;
+    }
+
+    &__label {
+        position: absolute;
+        top: -17px;
+        left: 0;
+        font-size: 12px;
+        font-weight: 600;
+        color: $black;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+    }
+
+    &__field {
+        width: 100%;
+        margin: 0 5px;
+        padding: 0;
+        outline: none;
+        border: 0;
+        cursor: default;
+    }
+
+    &__clear {
+        display: flex;
+        align-items: center;
+    }
+
+    &-subtext_show {
+        margin-bottom: 15px;
+    }
+
+    &__subtext {
+        position: absolute;
+        bottom: -17px;
+        left: 0;
+        font-size: 12px;
+        font-weight: 600;
+        color: $secondary_main;
+    }
+
+    &-error {
+        border-color: $danger-main;
+        .input__subtext {
+            color: $danger-main;
+        }
+    }
+
+    &-hover {
+        border-color: $primary-light;
+    }
+
+    &-focus {
+        border-color: $primary-main;
+    }
+}

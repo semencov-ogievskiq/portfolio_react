@@ -12,6 +12,8 @@
         "prepare": "husky install"
     },
     "dependencies": {
+        "@emotion/react": "11.7.1",
+        "@mui/icons-material": "5.2.5",
         "@storybook/builder-webpack5": "6.4.10",
         "@storybook/manager-webpack5": "6.4.10",
         "@storybook/preset-scss": "1.0.3",

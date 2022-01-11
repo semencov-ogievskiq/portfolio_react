@@ -35,13 +35,13 @@
         border-color: $secondary-main;
 
         &:hover {
-            background-color: $primary-light;
-            border-color: $primary-light;
+            background-color: $secondary-light;
+            border-color: $secondary-light;
         }
 
         &:active {
-            background-color: $primary-dark;
-            border-color: $primary-dark;
+            background-color: $secondary-dark;
+            border-color: $secondary-dark;
         }
     }
 
@@ -51,13 +51,13 @@
         border-color: $success-main;
 
         &:hover {
-            background-color: $primary-light;
-            border-color: $primary-light;
+            background-color: $success-light;
+            border-color: $success-light;
         }
 
         &:active {
-            background-color: $primary-dark;
-            border-color: $primary-dark;
+            background-color: $success-dark;
+            border-color: $success-dark;
         }
     }
 
@@ -67,13 +67,13 @@
         border-color: $warning-main;
 
         &:hover {
-            background-color: $primary-light;
-            border-color: $primary-light;
+            background-color: $warning-light;
+            border-color: $warning-light;
         }
 
         &:active {
-            background-color: $primary-dark;
-            border-color: $primary-dark;
+            background-color: $warning-dark;
+            border-color: $warning-dark;
         }
     }
 
@@ -83,13 +83,13 @@
         border-color: $danger-main;
 
         &:hover {
-            background-color: $primary-light;
-            border-color: $primary-light;
+            background-color: $danger-light;
+            border-color: $danger-light;
         }
 
         &:active {
-            background-color: $primary-dark;
-            border-color: $primary-dark;
+            background-color: $danger-dark;
+            border-color: $danger-dark;
         }
     }
 
@@ -99,13 +99,13 @@
         border-color: $info-main;
 
         &:hover {
-            background-color: $primary-light;
-            border-color: $primary-light;
+            background-color: $info-light;
+            border-color: $info-light;
         }
 
         &:active {
-            background-color: $primary-dark;
-            border-color: $primary-dark;
+            background-color: $info-dark;
+            border-color: $info-dark;
         }
     }
 }
