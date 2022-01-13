@@ -8,7 +8,7 @@
         "lint": "next lint",
         "format": "prettier --ignore-unknown --write ./",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook -o ./public/storybook",
+        "build-storybook": "cross-env STORYBOOK_BASE_HREF=storybook build-storybook -o ./public/storybook ",
         "build-storybook-docs": "build-storybook --docs",
         "prepare": "husky install"
     },

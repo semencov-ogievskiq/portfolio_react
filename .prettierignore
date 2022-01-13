@@ -1,6 +1,7 @@
 node_modules
 /build
 /.next
+/public
 /dist
 *.md
 npm-debug.log*
