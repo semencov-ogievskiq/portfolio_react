@@ -1,5 +1,6 @@
 @import "../styles/colors.scss";
 @import "../styles/main_colors.scss";
+@import "../styles/zIndex.scss";
 
 .navbar {
     box-sizing: border-box;
@@ -11,10 +12,11 @@
     flex-direction: row;
     align-items: center;
     height: 35px;
-    padding: 5px 10px;
+    padding: 5px;
     margin: 0;
     background-color: $main;
     color: $white;
+    z-index: $navbar;
 
     & > * {
         margin-right: 10px;
@@ -32,12 +34,16 @@
         font-weight: 500;
 
         &__icon {
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
             display: flex;
             align-items: center;
             flex-direction: row;
             margin-right: 8px;
+
+            & :global(.MuiSvgIcon-root) {
+                font-size: 30px;
+            }
         }
     }
 }

@@ -1,0 +1,33 @@
+@import "../styles/colors.scss";
+@import "../styles/main_colors.scss";
+@import "../styles/zIndex.scss";
+
+.sidebar {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px 5px;
+    width: 40px;
+    border-right: 1px solid $main;
+    background-color: $white;
+    z-index: $navbar;
+
+    & :global(.MuiSvgIcon-root) {
+        font-size: 30px;
+    }
+
+    &__button-open {
+        display: flex;
+        justify-content: center;
+
+        &:hover {
+            border-bottom: 1px solid $main;
+        }
+    }
+
+    &_open {
+        width: 200px;
+    }
+}
