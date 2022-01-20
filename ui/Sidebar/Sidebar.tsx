@@ -15,7 +15,7 @@ export const Sidebar: FC<SidebarProps> = props => {
         if (open !== undefined && openLocal !== open) {
             setOpenLocal(open);
         }
-    }, [open]);
+    }, [open, openLocal]);
 
     const handlerOpen = () => {
         const open = !openLocal;
